@@ -27,13 +27,7 @@ var client = new Client({
   encoding: 'UTF-8'
 });
 
-
-
-// Get the device description
-client.getDeviceDescription(function(err, description) {
-  if(err) throw err;
-  console.log(description);
-});
+//All options parameters are optionnal, in which case, defaults values used here are set
 
 // Get the repository list, you can specify returned result format by setting a MIME type
 client.listRepositories({acceptFormat: client.MIME.SPARQL_XML}, function(err,results) {
