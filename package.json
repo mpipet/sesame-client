@@ -1,0 +1,20 @@
+{
+  "name": "sesame-client",
+  "version": "0.0.1",
+  "description": "Simple sesame openrdf sail client",
+  "author": "mathieu pipet",
+  "license": "MIT",
+  "main": "sesame.js",
+  "dependencies": {
+     "underscore": "~1.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mpipet/sesame-client.git"
+  },
+  "keywords": [
+    "sesame",
+    "Utils",
+    "semantic"
+  ]
+}
